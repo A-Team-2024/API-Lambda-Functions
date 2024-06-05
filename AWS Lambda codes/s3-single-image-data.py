@@ -1,5 +1,6 @@
-# This code doenload the data from s3 bucket using GET function
-# In this code the application/jpeg is set to download the binary data of jpeg images
+# This code download the data of single image from s3 bucket using GET function
+# In this code the application/jpeg is set in (API settings- binary file data) to download the binary data of jpeg images.
+# Folder name is path parameter and file name is query string parameter.
 
 import os
 import logging
