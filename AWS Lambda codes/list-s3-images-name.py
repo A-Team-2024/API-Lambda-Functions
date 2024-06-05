@@ -1,3 +1,5 @@
+# This code list the image names in s3 bucket. The path parameter is folder name.
+
 import os
 import logging
 import json
